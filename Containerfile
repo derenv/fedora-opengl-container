@@ -1,5 +1,5 @@
 # Standard Version
-FROM docker.io/fedora/fedora:latest
+FROM fedora:latest
 
 # Dependencies
-RUN /bin/bash -c 'dnf update -y && dnf install -y ssh cmake make gcc-c++ glew-devel glfw-devel glm-devel'
+RUN dnf update -y && dnf install -y git ssh cmake make gcc-c++ glew-devel glfw-devel glm-devel && dnf clean all

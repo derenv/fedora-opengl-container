@@ -1,3 +1,6 @@
+# SPDX-License-Identifier: MIT
+# SPDX-FileCopyrightText: Deren Vural 2023
+
 # Standard Version
 FROM fedora:latest
 

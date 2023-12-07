@@ -5,4 +5,4 @@
 FROM fedora:latest
 
 # Dependencies
-RUN dnf update -y && dnf install -y cmake make premake gcc-c++ glew-devel glfw-devel glm-devel SDL2 && dnf clean all
+RUN dnf update -y && dnf install -y cmake make premake gcc-c++ glew-devel glfw-devel glm-devel && dnf clean all
